@@ -426,29 +426,7 @@ GTFS_RT_FILE_PATH=/app/samples/tripupdates.pb
 - Efficient SQL with aggregations pushed to database
 - Date_bin used for time-series bucketing (PostgreSQL 14+ required)
 
-## MVP Completion Checklist
 
-- [x] Docker Compose orchestration with 4 services (postgres, backend, ingestion, frontend)
-- [x] PostgreSQL schema with migrations (Alembic)
-- [x] Raw feed storage with error handling
-- [x] Normalized trip_update_events extraction
-- [x] Normalized vehicle_positions extraction
-- [x] FastAPI with health endpoint
-- [x] Statistics endpoints (summary, by-route, by-stop, timeseries)
-- [x] Pydantic validation and error handling
-- [x] React dashboard with date/route filters
-- [x] KPI cards (mean, median, p95 delays)
-- [x] Top stops table
-- [x] Time-series chart (Recharts)
-- [x] Structured logging (JSON format)
-- [x] Type hints throughout codebase
-- [x] Docstrings on public functions/classes
-- [x] Tests for parser (pytest)
-- [x] Tests for API endpoints (pytest)
-- [x] Complete documentation (this README)
-- [x] Environment variable configuration
-- [x] .env.example template
-- [x] .gitignore configuration
 
 ## Troubleshooting
 
@@ -480,4 +458,3 @@ This is a demonstration project. Use at your own discretion.
 
 **RIAL Fares**
 
-Built as a professional technical assessment demonstration.
