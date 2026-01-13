@@ -27,7 +27,6 @@ ENV/
 
 # Environment variables
 .env
-.env.example
 # Database
 *.db
 *.sqlite
